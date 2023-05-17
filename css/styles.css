@@ -1,0 +1,32 @@
+
+img{
+    max-width: 100%;
+    height: auto;
+  }
+    
+
+
+.imagen-header{
+    max-width: 100%;
+    
+    background-image: url(../img/fondo1.jpg);
+    background-size: 100% 100%;
+    animation-name: carrusel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+   }
+@keyframes carrusel{
+    from {background-image: url(../img/fondo1.jpg);}
+    to{background-image: url(../img/cabañas1.jpg);}
+
+}
+
+
+
+.texto-header{
+
+    background-color: rgba(0,0,250,0.3);
+    text-align: center;
+
+}
