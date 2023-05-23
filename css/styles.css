@@ -35,7 +35,7 @@
 .texto-header{
     /* margin: 20px 0px;*/
     
-    font-family: papyrus, 'Times New Roman', Times, serif; 
+    font-family: papyrus, 'Times New Roman', Times, serif; /*Utilizo una fuente LOCAL*/
     font-size: normal;
     font-style: italic;   
     padding: 50px 0px; 
@@ -44,12 +44,17 @@
     background-color: rgba(0,0,250,0.3);
     text-align: center;
     color: white;
-    position: fixed;
+    /* position: fixed; */
 }
+
+/*le doy formato a la barra de navegacion para que sea visible*/
 a:link {color: white;} /*Color del link*/
 a:hover {background-color: yellow;} /*Cuando paso mouse por arriba*/
 a:visited {color: rgb(182, 182, 196);} /*Una vez visitado*/
 a:active {background-color: green; color: white;} /*Cuando doy click*/
+
+
+
 
 ul {
     list-style-type: none;
@@ -62,6 +67,8 @@ ul {
     padding-left: 25px;
 
 }
+
+/* ICONOS DESCARGADOS DESDE FLATICON */
 
 .wifi{
     background-image: url(../img/wifi.png);
