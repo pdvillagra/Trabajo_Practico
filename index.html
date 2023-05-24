@@ -83,11 +83,84 @@
                 <Section id="Reservas"> 
                     
                     <h2>Reservas</h2>
-                    <form action="">
-                        <label for="nombre">Nombre y Apellido:</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="*Nombre y Apellido" required>
+                    <form action="" class="formulario" id="formulario">
+                        
+                        <div class="formulario__grupo" id="formulario__nombre">
+                          <label for="nombre" class="formulario__label">Nombre:</label>
+                              <div class="formulario__grupo-input">
+                    
+                             <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="*Nombre " required>
+                          </div>
+                        </div>
 
-                        <label for="telefono">Telefono: </label>
+                        <div class="formulario__grupo" id="formulario__apellido">
+                          <label for="apellido" class="formulario__label">Apellido:</label>
+                              <div class="formulario__grupo-input">
+                    
+                             <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="*Apellido " required>
+                          </div>
+                        </div>
+
+
+                        <div class="formulario__grupo" id="formulario__telefono">
+                          <label for="telefono" class="formulario__label">telefono:</label>
+                              <div class="formulario__grupo-input">
+                    
+                             <input type="number" class="formulario__input" name="telefono" id="telefono" placeholder="*telefono " required>
+                          </div>
+                        </div>
+
+
+                        <div class="formulario__grupo" id="formulario__email">
+                          <label for="email" class="formulario__label">email:</label>
+                              <div class="formulario__grupo-input">
+                    
+                             <input type="email" class="formulario__input" name="email" id="email" placeholder="*Nombre " required>
+                          </div>
+                        </div>
+
+
+                        <div class="formulario__grupo" id="formulario__adultos">
+                          <label for="adultos" class="formulario__label">adultos:</label>
+                              <div class="formulario__grupo-input">
+                    
+                             <input type="number" class="formulario__input" name="adultos" id="adultos" placeholder="1"  required>
+                          </div>
+                        </div>
+                        
+                        <div class="formulario__grupo" id="formulario__ninos">
+                            <label for="ninos" class="formulario__label">Niños:</label>
+                                <div class="formulario__grupo-input">
+                      
+                               <input type="number" class="formulario__input" name="ninos" id="ninos" placeholder="1"  required>
+                            </div>
+                          </div>
+
+                        <div class="formulario__grupo" id="formulario__ingreso">
+                            <label for="ingreso" class="formulario__label">Fecha de Entrada:</label>
+                                <div class="formulario__grupo-input">
+                      
+                               <input type="date" class="formulario__input" name="ingreso" id="ingreso" required>
+                            </div>
+                          </div>
+                          
+                          
+                      
+
+
+
+                          <div class="formulario__grupo" id="formulario__egreso">
+                            <label for="egreso" class="formulario__label">Fecha de Salida:</label>
+                                <div class="formulario__grupo-input">
+                      
+                               <input type="date" class="formulario__input" name="egreso" id="egreso" required>
+                            </div>
+                          </div>
+
+
+                     
+
+                        <!-- <label for="telefono">Telefono: </label>
                         <input type="number" name="telefono" id="telefono" placeholder="*telefono" required>
                         <br><br>
                         <label for="email">E-MAIL: </label>
@@ -101,16 +174,21 @@
                         <label for="Ingreso">Fecha de Entrada: </label>
                         <input type="date">
                         <label for="Egreso">Fecha de salida: </label>
-                        <input type="date">
-
-                        <br><br>
+                        <input type="date"> -->
+                       
+                        <div class="formulario__grupo">
                             <h5>Mensaje</h5>
                             <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                        <br><br>
-                        <input type="submit" value="enviar">
+                        </div>
 
-                    </form>
+                        <div class="formulario__grupo">
+                            <input class="formulario__boton" type="submit" value="enviar">
+                            <p class="formulario__mensaje-exito">El formulario se a enviado correctamente</p>
+                        </div>
                     
+                       </form>
+                    
+                </div>
                 </Section>
                 
                 

@@ -202,3 +202,33 @@ flex-wrap: wrap;
 background-color: aquamarine; */
     font-family: papyrus;
 }
+
+
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formulario__label{
+    display: block;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.formulario__grupo-input{
+   position: relative; 
+}
+
+.formulario__grupo-input{
+    width: 100%;
+    border: 3px solid transparent;
+    transition: .3s ease all;
+}
+
+.formulario__input:focus{
+    border: 3px solid rgba(0,0, 163, 0.4);
+    outline: none;
+    box-shadow: 3px 0px 30px grey;
+}
