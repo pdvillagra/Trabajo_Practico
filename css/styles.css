@@ -232,3 +232,44 @@ background-color: aquamarine; */
     outline: none;
     box-shadow: 3px 0px 30px grey;
 }
+
+.formulario__boton{
+    grid-column: span 2;
+}
+
+.formulario__mensaje{
+background: red;
+display: none;
+}
+
+.formulario__input-error{
+display: none;
+
+}
+
+.formulario__mensaje-activo{
+    display: block;
+}
+
+.formulario__mensaje-exito-activo{
+display: block ;
+}
+
+.formulario__grupo-correcto .formulatio__validacion-estado{
+    border: #1ed12d;
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+color: #bb2929;
+
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+.formulario__grupo-incorrecto .formulario__input{
+    border: 3px solid #bb2929;
+}
